@@ -1,0 +1,32 @@
+prefix: "#118C4F&lDonationBar &8»"
+notPlayer: "&4You are not a player"
+configReloaded: "&2Config file &7&o(config.yml) &2has been successfully reloaded"
+wrongUsage: "&4Use: %usage%"
+barEnabled: "&2Donation bar has been successfully &a&lENABLED"
+barAlreadyEnabled: "&4Donation bar is already enabled"
+barDisabled: "&2Donation bar has been &c&lDISABLED"
+barAlreadyDisabled: "&4Donation bar is already disabled"
+
+donationBar: "&fFundraiser Goal&7: #118C4F$&a%raised%&7/#118C4F$&a%goal%"
+
+sounds:
+  success: "BLOCK_NOTE_BLOCK_XYLOPHONE"
+  error: "BLOCK_NOTE_BLOCK_IRON_XYLOPHONE"
+
+settings:
+  # true OR false
+  barEnabled: true
+  # Period between donation bar updates in seconds
+  updatePeriodSeconds: 3
+  # Available colors: RED, YELLOW, BLUE, GREEN, PINK, PURPLE, WHITE
+  barColor: GREEN
+  # Available styles: SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20
+  barStyle: SOLID
+  # List of IDs of the fundraising event
+  tiltifyFundraisingEventIDs:
+    - 165280
+    - 160886
+    # - XXX
+    # - YYY
+  # How to get the API key - https://tiltify.github.io/api/topics/getting-started.html
+  tiltifyApiKey: "f01ff5879ba80cbc046a1434e5d846164b43ad376d4d080e684c260d0e681670"

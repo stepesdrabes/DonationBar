@@ -1,0 +1,15 @@
+name: DonationBar
+version: '${project.version}'
+main: cz.stepes.donationbar.DonationBarPlugin
+api-version: 1.18
+authors: [ Stepes ]
+description: BossBar showing current fundraising progress from tiltify
+commands:
+  donationbar:
+    usage: /donationbar <enable | disable | reload>
+    permission: donationbar.command
+permissions:
+  donationbar.command:
+    default: op
+  donationbar.hide:
+    default: false
